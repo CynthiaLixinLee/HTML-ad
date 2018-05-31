@@ -67,6 +67,22 @@ body {
   width: 100%;
   height: auto;
 }
+.shape {
+  position: absolute;
+  left: 140px;
+  top: 150px;
+  -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+/* Links */
 .social_links {
   position: absolute;
   width: 155px;
@@ -78,7 +94,7 @@ body {
   height: 45px;
 }
 .pre_order:hover {
-  content: url("assets/PRE-ORDER.png");
+  content: url("assets/pre-order.png");
   display: block;
   position: absolute;
   width: 200px;
@@ -86,7 +102,7 @@ body {
   transform: translate(-5px, -20px);
 }
 #facebook:hover {
-  content: url("assets/FACEBOOK.png");
+  content: url("assets/facebook.png");
   display: block;
   position: absolute;
   width: 175px;
@@ -94,7 +110,7 @@ body {
   transform: translate(-5px, -5px);
 }
 #twitter:hover {
-  content: url("assets/TWITTER.png");
+  content: url("assets/twitter.png");
   display: block;
   position: absolute;
   width: 175px;
@@ -102,7 +118,7 @@ body {
   transform: translate(-5px, -5px);
 }
 #close:hover {
-  content: url("assets/CLOSE.png");
+  content: url("assets/close.png");
   display: block;
   position: absolute;
 }

@@ -19,7 +19,7 @@ function updateBanner() {
     img.src = images[index];
     index++;
   } else {
-    clearInterval(updateBanner);
+      clearInterval(updateBanner);
   }
 }
 
